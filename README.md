@@ -19,11 +19,11 @@ First let’s download all the necessary things-
 Install it and store it on any disk you want.
 
 2.	Now it’s time to download the webdriver. Webdrivers are the tools to test web automations.
-3.	
+
 ![image](https://user-images.githubusercontent.com/55484263/109389183-6e8c9f00-7931-11eb-8646-85c95719d011.png)
 
-a.	You can download webdrivers either using CMD or POWERSHELL. The link to the cmd and powershell commands is here. 
-If you are a windows user, you need to download a package manager first. To download chocolatey package manager, go to  ‘https://chocolatey.org/install’ and copy the powershell command and run it in powershell and your choco package manager will be installed. 
+  a.	You can download webdrivers either using CMD or POWERSHELL. The link to the cmd and powershell commands is here. 
+     If you are a windows user, you need to download a package manager first. To download chocolatey package manager, go to           ‘https://chocolatey.org/install’ and copy the powershell command and run it in powershell and your choco package manager will       be installed. 
 
 ![image](https://user-images.githubusercontent.com/55484263/109389195-7c422480-7931-11eb-9c4d-4141a176d32f.png)
 
