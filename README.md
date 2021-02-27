@@ -54,6 +54,29 @@ Now we have everything installed and it’s time to write our script.
 (the scripts are available under ‘SCRIPTS’ folder)
 What’s the important thing to keep in mind is, that this program will find a specific element and will click it. That’s it. No rocket science. Just find element and click it.
 
+**from selenium import webdriver**
+--> this will load the webdriver module in your script. 
+
+**import time**
+--> This is loaded to delay the next command for few seconds, wherever needed.
+
+**driver=webdriver.Chrome()**
+--> ‘driver’ is a variable which will store the chrome’s driver.
+
+**driver.get('https://cuchd.blackboard.com')**
+--> To make request to the website where our classes will be held on
+
+**searchbox=driver.find_element_by_xpath('//*[@id="user_id"]')
+searchbox.send_keys('19BCS3516')
+searchbox=driver.find_element_by_xpath('//*[@id="password"]')
+searchbox.send_keys('Incorrect99(')**
+--> ‘searchbox’ is the variable which will store the path to the element which we will click. And we will find the element by ‘chrome dev tools’. Press ‘Ctrl+shift+I’ or right click and select ‘Inspect’, this will open your chrome dev tools. Now click on the element you want to click, this will show you the respective code in the dev tools. Right click on the code  Copy  Copy XPath.
+XPath is the unique path to your desired element.
+To send key values as input, here username and password
+
+
+**The rest code is same and I have used comments, so you will be able to understand what that particular piece of code is doing. 
+If you still face some issues, then you have to do only one thing- GOOGLE!**
 
 
 
