@@ -111,8 +111,7 @@ So, what necessary is, just uncheck everything.
 
 
 
-**And that’s it! Our cronjobs are also set up.
-So I think, its pretty much for today.
-I’ll try my best to keep this updated and will some more cool things to you very soon.
-Till then, bye-bye.
-**
+**And that’s it! Our cronjobs are also set up.**
+**So I think, its pretty much for today.**
+**I’ll try my best to keep this updated and will some more cool things to you very soon.**
+**Till then, bye-bye.**
