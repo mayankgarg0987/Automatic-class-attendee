@@ -5,6 +5,7 @@ driver=webdriver.Chrome()
 
 # opening the target website
 driver.get('https://cuchd.blackboard.com')
+driver.maximize_window()
 
 # entering username and password
 searchbox=driver.find_element_by_xpath('//*[@id="user_id"]')
