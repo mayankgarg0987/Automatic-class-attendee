@@ -8,9 +8,9 @@ driver.get('https://cuchd.blackboard.com')
 
 # entering username and password
 searchbox=driver.find_element_by_xpath('//*[@id="user_id"]')
-searchbox.send_keys('19BCS3516')
+searchbox.send_keys('...')      # YOUR USERNAME GOES HERE
 searchbox=driver.find_element_by_xpath('//*[@id="password"]')
-searchbox.send_keys('Incorrect99(')
+searchbox.send_keys('...')   # YOUR PASSWORD GOES HERE
 
 # time.sleep(1)
 # 2 seconds delay
